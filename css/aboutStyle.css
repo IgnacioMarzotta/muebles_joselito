@@ -1,6 +1,6 @@
 body
 {
-    background-image: url(../../art/others/Background1.jpg);
+    background-image: url("../art/others/Background.png");
 }
 
 img
@@ -18,7 +18,6 @@ h1
 {
     font-family: 'Playfair Display SC', serif;
     font-size: 120px;
-    text-align: center;
     -webkit-text-stroke-color: #ffffff;
     -webkit-text-stroke-width: 0.5px; 
 }
@@ -99,8 +98,8 @@ button:hover, a:hover
  
 .form-row
 {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 footer
@@ -110,14 +109,14 @@ footer
     text-align: center;
 }
 
-.move-right
-{
-    margin-left: 25px;
-}
-
 .btn-primary
 {
     margin-left: 200px;
+}
+
+.form-group
+{
+    margin: 1%;
 }
 
 .form-check-label
