@@ -26,8 +26,8 @@ iframe
 .slogan
 {
     background-color: #606060;
-    margin-left: 290px;
-    margin-right: 290px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .white-background
@@ -78,11 +78,16 @@ footer
 
 .searchbar
 {
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.sofa
+{
+    padding: 100px;
 }
 
 .product
 {
-    margin: 15px;
+    margin: 2%;
 }
