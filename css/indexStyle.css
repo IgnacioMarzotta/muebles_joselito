@@ -76,6 +76,11 @@ footer
     -webkit-text-fill-color: transparent;
 }
 
+audio
+{
+    margin-left: 150px;
+}
+
 .searchbar
 {
     margin-left: 35%;
