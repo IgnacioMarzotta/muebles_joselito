@@ -12,7 +12,7 @@
     </head>
     <body>
         <!-- NAVBAR START -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded-bottom">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -55,13 +55,19 @@
         <br>
         <br>
         <br>
-        <h3 class="slogan"><b> Los mejores muebles del hemisferio sur (y el norte tambien).</b></h3>
+        <h3 class="slogan rounded-pill"><b> Los mejores muebles del hemisferio sur (y el norte tambien).</b></h3>
         <br>
         <br>
         <br>
+        <nav class="navbar navbar-dark bg-dark rounded-pill searchbar">
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </nav>
         <br>
         <br>
-        <h5 class="white-background"><b> Lo mejor para equipar tu casa</b></h5>
+        <h5 class="white-background over-gallery"><b> Lo mejor para equipar tu casa</b></h5>
         <!-- GALLERY -->
         <div class="bd-example">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -71,38 +77,46 @@
                 <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="art/Comedor.png" class="d-block w-100" alt="Oh, no! Borraron la foto! (No te preocupes, se veía bonito)">
+                  <a href="#"><img src="art/Comedor.png" class="d-block w-100" alt="Oh, no! Borraron la foto! (No te preocupes, se veía bonito)"></a>
                   <div class="carousel-caption d-none d-md-block">
                     <h5>Comedor</h5>
                     <p>Perfecto para reuniones familiares y juntas de amigos</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="art/Livng.png" class="d-block w-100" alt="Oh, no! Borraron la foto! (No te preocupes, se veía bonito)">
+                  <a href="#"><img src="art/Livng.png" class="d-block w-100" alt="Oh, no! Borraron la foto! (No te preocupes, se veía bonito)"></a>
                   <div class="carousel-caption d-none d-md-block">
                     <h5 class="black-text">Sala de estar</h5>
                     <p class="black-text">Quizas no tenga la misma vista, pero un sofá comodo es irremplazable</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="art/Cocina.png" class="d-block w-100" alt="Oh, no! Borraron la foto! (No te preocupes, se veía bonito)">
+                  <a href="#"><img src="art/Cocina.png" class="d-block w-100" alt="Oh, no! Borraron la foto! (No te preocupes, se veía bonito)"></a>
                   <div class="carousel-caption d-none d-md-block">
                     <h5>Cocina</h5>
                     <p>Lo ultimo en tecnologia, para aquellos apasionados por su cocina</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="art/Bahtroom.png" class="d-block w-100" alt="Oh, no! Borraron la foto! (No te preocupes, se veía bonito)">
+                    <a href="#"><img src="art/Office.jpg" class="d-block w-100" alt="Oh, no! Borraron la foto! (No te preocupes, se veía bonito)"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Estudio</h5>
+                      <p>Equipa tu sector de trabajo o estudio con muebles a la altura del Siglo XXI</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"><img src="art/Bahtroom.png" class="d-block w-100" alt="Oh, no! Borraron la foto! (No te preocupes, se veía bonito)"></a>
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="black-text">Baño</h5>
                         <p class="black-text">Tan bonito y reluciente, que no vas a necesitar un espejo</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="art/Exterior.jpg" class="d-block w-100" alt="Oh, no! Borraron la foto! (No te preocupes, se veía bonito)">
+                    <a href="#"><img src="art/Exterior.jpg" class="d-block w-100" alt="Oh, no! Borraron la foto! (No te preocupes, se veía bonito)"></a>
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="black-margin white-text">Exterior</h5>
                         <p class="black-margin white-text">Un patio verde y bonito, es un patio feliz</p>
@@ -119,9 +133,78 @@
               </a>
             </div>
         </div>
-        <h5 class="white-background"><b> Dónde encontrarnos</b></h5>
+        <h5 class="white-background"><b> Podría interesarte</b></h5>
         <!-- GALLERY FINISH -->
         <br>
+        <br>
+        <br>
+        <br>
+        <!-- FEATURED CONTENT START -->
+        <div class="card-columns">
+            <div class="card product bg-dark mb-3">
+                <a href="#"><img src="art/furniture/Toilet.jpg" class="card-img-top" alt="..."></a>
+            </div>
+            <div class="card product bg-dark mb-3">
+                <a href="#"><img src="art/furniture/TVTable.jpg" class="card-img-top" alt="..."></a>
+            </div>
+            <div class="card product bg-dark mb-3">
+                <a href="#"><img src="art/furniture/Chair.jpg" class="card-img-top" alt="..."></a>
+            </div>
+            <div class="card product bg-dark mb-3">
+                <a href="#"><img src="art/furniture/DiningTable.jpg" class="card-img-top" alt="..."></a>
+            </div>
+            <div class="card product bg-dark mb-3">
+                <a href="#"><img src="art/furniture/Desk.jpg" class="card-img-top" alt="..."></a>
+            </div>
+            <div class="card product bg-primary text-white text-center p-3">
+              <blockquote class="blockquote mb-0">
+                <p>"No podría estar mas contento de cómo quedó la casa de La Moneda, gracias a Muebles Joselito"</p>
+                <footer class="blockquote-footer text-white">
+                  <small>
+                    <cite title="Source Title" class="black-text">-Sebastian Piñera, Presidente de la Nación </cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="card product bg-dark mb-3">
+              <a href="#"><img src="art/furniture/Bed.jpg" class="card-img-top" alt="..."></a>
+              
+            </div>
+            <div class="card product bg-primary text-white text-center p-3">
+              <blockquote class="blockquote mb-0">
+                <p>"Muebles muy bonitos, estoy considerando enviar un par en la expedición a Marte"</p>
+                <footer class="blockquote-footer text-white">
+                  <small>
+                    <cite title="Source Title" class="black-text">-Elon Musk, fundador de SpaceX y Tesla </cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="card product bg-dark mb-3">
+                <a href="#"><img src="art/furniture/Fridge.jpg" class="card-img-top" alt="..."></a>
+            </div>
+            <div class="card product bg-dark mb-3">
+              <a href="#"><img src="art/furniture/OutdoorLamp.jpg" class="card-img-top" alt="..."></a>
+            </div>
+            <div class="card pdoruct bg-dark mb-3">
+                <a href="#"><img src="art/furniture/Sofa.jpg" class="card-img-top" alt="..."></a>
+            </div>
+            <div class="card product bg-dark mb-3">
+                <a href="#"><img src="art/furniture/Shower.jpg" class="card-img-top" alt="..."></a>
+            </div>
+            <div class="card product bg-dark mb-3">
+                <a href="#"><img src="art/furniture/DeskChair.jpg" class="card-img-top" alt="..."></a>
+            </div>
+            <div class="card product bg-dark mb-3">
+                <a href="#"><img src="art/furniture/SunBathChair.jpg" class="card-img-top" alt="..."></a>
+                
+            </div>
+          </div>
+        <!-- FEATURED CONTENT FINISH -->
+        <br>
+        <br>
+        <br>
+        <h5 class="white-background"><b> Dónde encontrarnos</b></h5>
         <br>
         <br>
         <!-- LOCATION START -->
@@ -144,6 +227,14 @@
                 </div>
             </div>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
         <!-- LOCATION FINISH-->
+        <footer>
+            <h4>Muebles Joselito</h4>
+            <a href="about.html">Sobre nosotros</a>
+        </footer>
     </body>
 </html>
