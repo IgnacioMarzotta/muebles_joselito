@@ -1,0 +1,64 @@
+body
+{
+    background-image: url("../art/others/Background.png")
+}
+
+h1
+{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 150px;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px; 
+}
+
+h3
+{
+    font-size: 25px;
+    text-align: center;
+}
+
+iframe
+{
+    margin: auto;
+}
+
+.slogan
+{
+    background-color: #ffffff;
+    margin-left: 290px;
+    margin-right: 290px;
+}
+
+.white-background
+{
+    text-align: center;
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.black-text
+{
+    color: black;    
+}
+
+.white-text
+{
+    color: white;
+    font-size: 20px;
+}
+
+.black-margin
+{
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px; 
+}
+
+.metallic-text
+{
+    background-image: linear-gradient(to left, black, black, black, lightgray, white, lightgray, black, black, black);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
